@@ -13,11 +13,22 @@ body {
 h1 {
   font-size: 24px;
   color: #ffffff;
+  margin: 0px 0px 16px 0px;
+}
+
+h2 {
+  font-size: 18px;
+  color: #ffffff;
   margin: 0px;
 }
 
+hr {
+  margin: 32px 0px;
+}
+
 p {
-  padding: 0px 16px 16px 16px;
+  margin: 8px;
+  padding: 0px 8px 8px 8px;
 }
 
 a:link    { color: #0080ff; }
@@ -27,10 +38,18 @@ a:active  { color: #00ffff; background: #0000ff; }
 
 div#main {
   background-color: #000000;
-  background: rgba(0,0,0,0.9);
+  background: rgba(0,0,0,0.75);
   border-radius: 32px;
   color: #c0c0c0;
   margin: 32px auto;
-  width: 512px;
-  padding:32px;
+  width: 640px;
+  padding: 32px;
+}
+
+div.content {
+  background-color: #000000;
+  background: rgba(0,0,0,0.75);
+  border-radius: 32px;
+  margin: 0px 32px 32px 32px;
+  padding: 32px;
 }
